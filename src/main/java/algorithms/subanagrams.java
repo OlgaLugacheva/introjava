@@ -14,6 +14,7 @@ public class subanagrams {
 	{
 		s1 = s1.replaceAll(" ", "");
 		s2 = s2.replaceAll(" ", "");
+
 		int[] a1 = new int[26];
 		int[] a2 = new int[26];
 		for (int i=0; i<s1.length(); i++) {
